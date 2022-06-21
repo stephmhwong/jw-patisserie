@@ -150,33 +150,27 @@ a {
     padding: 0px 20px;
 }
 
-#footer .contact {
+/* #footer .contact {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-}
+} */
 
-#footer .contact h2 {
+#footer h2 {
     text-transform: uppercase;
     font-size: 1.8rem;
     font-weight: 700;
 }
 
-#footer .contact a, p {
+#footer .contact a, p, .address a {
     font-size: 1.65rem;
     font-weight: 600;
 }
 
-#footer .socials {
+#footer .address, .socials, .contact {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-}
-
-#footer .socials h2 {
-    text-transform: uppercase;
-    font-size: 1.8rem;
-    font-weight: 700;
 }
 
 #footer .socials a {
